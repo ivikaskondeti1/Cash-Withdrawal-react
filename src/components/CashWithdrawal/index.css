@@ -1,0 +1,64 @@
+.mainarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
+.mainPage {
+  width: 400px;
+  background-image: linear-gradient(#150b3e, #585076, #382f5a);
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  padding: 20px;
+}
+.headingBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.headingIcon {
+  padding-top: 5px;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #c7d2fe;
+}
+
+.name {
+  margin-left: 10px;
+  color: azure;
+}
+.yourBalanceBlock {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.balancePara {
+  color: #c4c4c4;
+  font-size: bold;
+}
+.resultBlock {
+  margin-top: -15px;
+}
+.ResultMoney {
+  color: white;
+}
+.rupeeName {
+  font-size: 13px;
+  color: #c4c4c4;
+}
+
+.balancePara {
+  color: #c4c4c4;
+}
+.BtnCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

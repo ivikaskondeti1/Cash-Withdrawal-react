@@ -1,0 +1,15 @@
+.btn {
+  width: 100px;
+  padding: 10px;
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  margin: 10px;
+  color: aliceblue;
+  font-weight: bold;
+}
+li {
+  list-style-type: none;
+}
